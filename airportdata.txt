@@ -1,0 +1,46 @@
+Available Airports:
+One-way trips only
+----------------------------------------------------
+
+1.Hartsfield Jackson Atlanta International Airport
+Leaving: Atlanta,Georgia	
+Destination: San Francisco, California
+Departure: Monday
+Departure time:12:00 pm
+Arrival time:5:00 pm
+Cost:$177
+
+
+2.San Francisco International Airport
+Leaving: San Francisco,California
+Destination: Burlington, Vermont
+Departure: Tuesday
+Departure time:3:00 pm
+Arrival time:10:13 pm
+Cost:$288
+
+3.Dallas Love Field Airport
+Leaving: Dallas, Texas 	
+Destination: Kansas, Kansas City
+Departure: Wednesday
+Departure time:8:00 pm
+Arrival time:9:14 pm
+Cost:$291
+
+
+4.Denver International Airport
+From: Denver, Colarado
+Destination: Concord,New Hampshire
+Departure:Thursday
+Departure time: 7:00 am
+Arrival time: 12:50 pm
+Cost: $285
+
+5.O''Hare International Airport
+From: Chicago, Illinois
+Destination: Lewistown,Montana 
+Departure:Friday
+Departure time: 11:30 am
+Arrival time: 2:57 pm
+Cost:$256
+
