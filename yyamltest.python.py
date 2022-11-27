@@ -12,24 +12,15 @@ def chart(x):
         fileObj = open(filename, mode)
         for lines in fileObj:
             print(lines)
+            sys.exit
 
     except:
         print("Unable to open file")
         sys.exit
-    
+    fileObj.close()
 #Open the file for readin and reads it 
 
-def choices(h):
-    
-    if h=='1':
-         
-         try:
-             filename = open('airportdata.txt')
-             content = filename.readlines()
-             print(content[4:0])
-         except:
-            print("Unable to open file")
-            sys.exit
+
 
 #I ran into problems here so you can disregard whats already here
 
@@ -47,6 +38,12 @@ def main():
     if x=="Y" or x=="y":
         print(chart(x))
         h=input('Which of the options above best supports your interest (select 1-5)?')
+
+
+    if h=='1':
+        file = open('airportdata.txt')
+        content = file.readlines()
+        print(content[4:11])
     
 #this is where theyr supposed to select their option promtpting the choices function
 
